@@ -70,7 +70,6 @@ header{
  }
 
  .login-two{
-    width: 200px;
     background-color: white;
     padding-right: 15px;
     padding-left: 15px;
@@ -83,7 +82,6 @@ header{
  }
 
  .login-three{
-    width: 300px;
     background-color: black;
     color: white;
     padding-right: 15px;
@@ -115,6 +113,16 @@ header{
        font-size: 20px;
     }
 
+.container-three{
+    background-color: lightgray;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    }
+   
+
     .container-flex-three{
     display: flex;
     padding-left: 200px;
@@ -128,6 +136,7 @@ header{
 }
   
     .container-two{
+        background-color: lightgray;
         text-align: center;
         padding-left: 200px;
         padding-right: 200px;
@@ -137,25 +146,45 @@ header{
     
     .item-four{
         width: 1200px;
-    } 
+    }
+    
+    .title-three{
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .login-four{
+    background-color:rgb(114, 137, 218);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: auto;
+    display: inline-block;
+    color: white;
+    }
 
 .container-flex-four{
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 10px;
+    padding-top: 80px;
     padding-bottom: 30px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    height: 500px;
+    background-color: rgb(35, 39, 42);
+    
+    ;
+}
+
+.title-four{
+    color: rgb(111, 126, 188);
+    font-size: 40px;
+    
 }
 
 .mini-container-flex-four{
-    background-color: salmon;
     height: 100%;
-    display: flex;
-    flex-grow: 0.34;
-    border: 2px dotted black;
+    
 }
 
 .mini-container-flex-five{
